@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>PrecompiledHeader</Filter>
+    </ClCompile>
+    <ClCompile Include="TStringTest.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="PrecompiledHeader">
+      <UniqueIdentifier>{a800e09c-86bf-4593-ba0d-6ed366f45404}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ResourceFiles">
+      <UniqueIdentifier>{291f2296-0abd-48b8-8ad4-8e67d1173b3b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>PrecompiledHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TString\tstring.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config">
+      <Filter>ResourceFiles</Filter>
+    </None>
+  </ItemGroup>
+</Project>
